@@ -1,69 +1,196 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
+    <meta charset="UTF-8">
     <title>Montresor</title>
-  </head>
-  
-  <body>
-    <h1> Montresor </h1>
-    <img src = "https://snipboard.io/AgsuVW.jpg"
-      width = 200px length = 100px>
-    <h4> Montresor is a major antagonist in the <i>Nevermore</i> webtoon. He is a cocksure character who portrays himself as fearing nothing and no one.</h4>
-  <ol>
-    <h2><li>Original Story</li></h2>
-    <p>Montresor is a character based on Edgar Allan Poe's story, 
-    <a href = https://poemuseum.org/the-cask-of-amontillado/><i>The Cask of Amontillado</i></a>
+<style>
+    .my-header {
+      color: #080808;
+    }
+    .container {
+        max-width: 900px; /*changes borders size*/
+        margin: 0 auto; 
+        padding: 20px; /*changed the distance between the image paragraphs (image w/ paragraphs and the border*/
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #2e0000; /*change background inside border*/
+    }
+    .image-paragraph {
+        display: flex;
+        align-items: center;
+        gap: 30px; /*distance between the image and text*/
+        margin: 20px 0;
+    }
+
+    .image-paragraph-reverse {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin: 20px 0;
+        flex-direction: row-reverse; 
+    }
+
+    .image-paragraph img, .image-paragraph-reverse img {
+        width: 300px;	
+        height: auto;
+        border-radius: 10px;
+    }
+  p {
+        color: #b08a2a;
+  }
+    .image-paragraph p, .image-paragraph-reverse p {
+        max-width: 600px; /*how large the paragraph is*/
+        text-align: left;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #b08a2a
+    }
+.image-paragraph img:not(.small-img),
+.image-paragraph-reverse img:not(.small-img) {
+    width: 300px; /*the size of the image*/
+    height: auto;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.small-img {
+    width: 150px; /* size of the smaller images (abilities)*/
+    height: auto;
+    border-radius: 10px;
+    align-self: center;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+        @media (max-width: 600px) {
+            .image-paragraph, .image-paragraph-reverse {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        .image-paragraph p, .image-paragraph-reverse p {
+            max-width: 100%;
+        }
+    }'
+
+</style>
+</head>
+
+<body class = my-header style = background-color:#080808;>
+    <div class="container">
+
+    <h1 style="text-align:center;">Montresor</h1>
+
+    <div class="image-paragraph">
+        <img src="https://snipboard.io/AgsuVW.jpg" alt="Character Image">
+        <p>
+        Montresor is a major antagonist in the Nevermore webtoon. He is a cocksure character who portrays himself as fearing nothing and no one.
+        </p>
+    </div>
+
+    <h2 style="text-align:center;">Original Story</h2>
+    <div class="image-paragraph-reverse">
+        <a href = https://picryl.com/media/caskofamontillado-clarke-c2661c><img src="https://cdn2.picryl.com/photo/1919/12/31/caskofamontillado-clarke-c2661c-640.jpg" alt="Character Image"></a>
+        <p>
+            Montresor is a character based on Edgar Allan Poe's story, 
+    <a href = https://poemuseum.org/the-cask-of-amontillado/><i>The Cask of Amontillado</i></a>.
      In this story, a nobleman named Montresor narrates his revenge against a man named Fortunato, whom he traps behind a wall. The story is referenced in <i>Nevermore</i> when Montresor traps Duke, also known as the Fearless Fortunato, behind a wall to kill him. In <i>The Cask of Amontillado</i>, Montresor leads Fortunato into his vaults. Once they reach a niche deep within the vaults, Montresor quickly chains Fortunato and begins to seal the niche. The intoxicated Fortunato soon sobers up, realizes his predicament, and attempts to escape. He pleads for Montresor to free him. However, Montresor mocks Fortunato's cries for help. Fortunato then suggests that they treat the situation as a joke, but after one last desperate plea, he falls silent.
-    </p>
-    <p>
-      In <i>Nevermore</i>, Montresor shares the name with the unreliable narrator of <i>The Cask of Amontillado</i>. In <i>The Cask of Amontillado</i>, Montresor describes his relationship with fortunato as his "friend" even with the plan to kill Forunato off. This is similar to Nevermore when Montresor attempts to come off as friendly with Duke, saying "We've caught on like a barn fire." But, the stronger similarities appear when Montresor attempts to kill Duke in the webtoon. Montresor uses William disguised as Lenore to lure Duke down into the catacombs of the school. This is similar to the oiginal story when the Narrator lures Fortunato into his vaults, only in the original story, he uses Fortunato's expertise in wine. In both <i>Nevermore</i> and <i>The Cask of Amontillado</i>, Montresor attempts to kill Duke/Fortunato by trapping him behind a wall. Only, in <i>Nevermore</i>, Montresor fails as Pluto and Lenore come to his rescue.
-    </p>
-    <p>
-        In <i>Nevermore</i>, Montresor is constantly depicted as a gambler. He is seen hustling a character by the name of "Gold Eyes" at a game of cards. He also frequently uses terms that are used to allude to gambling such as, "I may be down a few chips. But I play for keeps. And one of us ain't walking out of here." He also says "Any good gambler knows... Luck's a fickle bitch", clearly referring to himself, calling himself a "good gambler". In the Edgar Allan Poe story, <a href = https://poemuseum.org/the-duke-de-lomelette/><i>The Duke De L'Omlette</i></a>, the main character that shares the title, plays against the Devil at a game of cards. Montresor is often associated with Satanic imagery, with his spectre name being "Son of Belial", and in the scene displaying his greatest fears, his mother saying "You've had the devil inside you since the day you were born", before he coughed up a goat-like identity, which is often used to depict satan. In <i>The Cask of Amontillado</i>, the narrator also mentions bargaining: "You were not to be found, and I was fearful of losing a bargain."
-    </p>
-    <h2><li>Appearance</li></h2>
-    <h4><ul><li>General Appearance</li></ul></h4>
-    <p>Montresor is a broad-shouldered caucasian male who stands at a height of 6'1. He has shoulder length greasy, dirty blonde hair that is always unkempt. Some of his more notable features are his gold tooth and stubble around his jaw. He has grey eyes and a bump on his nose. Outside of his uniform he can be seen wearing a cross around his neck, hinting at his relationship with religion before his death. In Montresor's flashbacks (episodes 54 and 118), he's dressed as a priest. It is revealed in episode 118 that he dresses as a priest to swindle others. He is commonly seen with a toothpick in his mouth.</p>
-    <img src = "https://snipboard.io/6AXeZ2.jpg"
-      width = 200px length = 100px>
-    <h4><ul><li>School Uniform</li></ul></h4>
-    <p> Montresor wears a white button up shirt with a black bolo tie that is lazily tucked into a grey pair of pants. Around those pants, he wears a thick, black belt with a silver buckle. He wears a black, cropped jacket with a lapel collar and cuffs on his sleeves that resemble spurs, alluding to his stereotypical cowboy personality. The Nevermore Academy school emblem lies on the back of his jacket, as is the same with all of the other students. Also similar to the other students, he wears long black boots with white buttons that go up to his thighs. </p>
-    <img src = "https://i.pinimg.com/736x/02/39/dd/0239dd634ffc8de13097201f2a4c7b63.jpg"
-    width = 200px length = 100px>
-    <h4><ul><li>Spectre (Dybbuk)</li></ul></h4>
-    <p> Montresor's spectre is a Son of Belial type Dybbuk. The Hebrew word "Belial" literally means "worthlessness". In episode 87 when we see into Montresor's greatest fear, he is called worthless, the word seemed to have stood out to him as he snaps. A dybbuk is a wandering soul, believed to enter and control a living body until exorcised. This is similar to how demons are usually portrayed. The spectre's physical attributes include his longer, lighter blonde hair with bangs. On his head, he has black, ram-like horns that are decorated with gold. On his face, he kept his more noticable attributes, which includes his gold tooth and stubble. He has golden glowing eyes with pupils resembling those of goats, his face is decorated with gold markings that resemble the sigil of Belial. In his spectre form, Montresor has a human upper half of his body that is almost entirely red. His arms begin to fade into black at his lower forearm. His fingers are elongated and his nails are especially sharp. He has golden chains wrapped around his shoulders and gold nipple piercings. He also appears to be wearing a grey cape and he has very tiny black wings that are also accessorized with gold. On the lower half of his body, he has black, goat-like limbs and cloven hooves that are also adorned with gold. He also has pieces of gold on the bottom of his hooves. He has a long, black  tail with two golden piercings.
-    </p>
-    <img src = "https://static.tvtropes.org/pmwiki/pub/images/montyspectrefull.png"
-    width = 200px length = 200px>
-    <br>
-      <h2><li>Death</li></h2>
-      <p>Montresor's death is heavily implied to be from being tied to the tracks and being run over by a train. In episode 54, he's shown to be sleeping with the reverend's daughter, dressed as a priest, furthering the point that he masquerades as a religious figure to get his way. The reverend throws Montresor out of the building. The Sheriff then points out that the train may be coming soon. "Train'll be comin' through soon, I reckon." - Sheriff. "Lord have mercy. Bring him to the tracks." - Reverend. </p>
-    <br>
-    <h2><li>Character Traits</li></h2>
-      <p>
-        How does the character present himself? What is he really like?
-      </p>
-    <br>
-    <h2><li>Character Development</li></h2>
-      <p>
-        How does the character change?
-      </p>
-    <br>
-    <h2><li>First Appearence</li></h2>
-      <p>
-        Episode, what happens before the introduction, how he introduces himself
-      </p>
-    <br>
-    <h2><li>Spectre Abilities</li></h2>
-     <h4><ul><li>Possession</li></ul></h4>
-     <p>Describe ability
-     </p>
-     <h4><ul><li>Opression</li></ul></h4>
-     <p>Describe ability
-     </p>
-     <h4><ul><li>Fire & Brimstone</li></ul></h4>
-     <p>Describe ability
-     </p>
-  </ol>
-  </body>
+        </p>
+    </div>
+
+            <div class="image-paragraph">
+                <img src= "https://snipboard.io/RhysL6.jpg" alt="Character Image">
+                <p>In <i>Nevermore</i>, Montresor shares the name with the unreliable narrator of <i>The Cask of Amontillado</i>. In <i>The Cask of Amontillado</i>, Montresor describes his relationship with Fortunato as his "friend" even with the plan to kill Fortunato off. This is similar to Nevermore when Montresor attempts to come off as friendly with Duke, saying, "We've caught on like a barn fire." But the stronger similarities appear when Montresor attempts to kill Duke in the webcomic. Montresor uses William disguised as Lenore to lure Duke down into the catacombs of the school. This is similar to the original story when the Narrator lures Fortunato into his vaults, only in the original story, he uses Fortunato's expertise in wine. In both <i>Nevermore</i> and <i>The Cask of Amontillado</i>, Montresor attempts to kill Duke/Fortunato by trapping him behind a wall. Only in <i>Nevermore</i>, Montresor fails as Pluto and Lenore come to his rescue.</p>
+            </div>            
+            <div class="image-paragraph-reverse">
+                <img src= "https://snipboard.io/gqZTkj.jpg" alt="Character Image">
+                <p> In <i>Nevermore</i>, Montresor is constantly depicted as a gambler. He is seen hustling a character by the name of "Gold Eyes" at a game of cards. He also frequently uses terms that are used to allude to gambling, such as "I may be down a few chips. But I play for keeps. And one of us ain't walking out of here." He also says, "Any good gambler knows...", clearly referring to himself, calling himself a "good gambler". In the Edgar Allan Poe story, <a href = https://poemuseum.org/the-duke-de-lomelette/><i>The Duke De L'Omlette</i></a>, the main character who shares a name with the title, plays against the Devil at a game of cards. Montresor is often associated with Satanic imagery, with his spectre name being "Son of Belial", and in the scene displaying his greatest fears (87), his mother says "You've had the devil inside you since the day you were born", before he coughs up a goat-like identity, which is often used to depict satan. In <i>The Cask of Amontillado</i>, the narrator also mentions bargaining: "You were not to be found, and I was fearful of losing a bargain."</p>
+            </div>
+        <h2 style="text-align:center;">Designs</h2>
+        <h3 style="text-align:center;">General</h3>    
+            <div class="image-paragraph">
+                <img src= "https://snipboard.io/6AXeZ2.jpg" alt="Character Image">
+                <p>Montresor is a broad-shouldered caucasian male who stands at a height of 6'1. He has shoulder length greasy, dirty blonde hair that is always unkempt. Some of his more notable features are his gold tooth and stubble around his jaw. He has grey eyes and a bump on his nose. Outside of his uniform, he can be seen wearing a cross around his neck, hinting at his relationship with religion before his death. In Montresor's flashbacks (episodes 54 and 118), he's dressed as a priest. It is revealed in episode 118 that he dresses as a priest to swindle others. He is commonly seen with a toothpick in his mouth. Montresor is a triangle-shaped character, giving him sharper features. So, not only is he villainous in his actions, but also in his appearance. Everything about Montresor is sharp, from his facial features, such as his nose and jawline, to his sharpened, broad shoulders and clothing.</p>
+            </div>
+        <h3 style="text-align:center;">School Uniform</h3>    
+            <div class="image-paragraph-reverse">
+                <img src= "https://i.pinimg.com/736x/02/39/dd/0239dd634ffc8de13097201f2a4c7b63.jpg" alt="Character Image">
+                <p>Montresor wears a white button-up shirt with a black bolo tie that is lazily tucked into a grey pair of pants. Around those pants, he wears a thick, black belt with a silver buckle. He wears a black, cropped blazer with a lapel collar and cuffs on his sleeves that resemble spurs, alluding to his stereotypical cowboy personality. The Nevermore Academy school emblem lies on the back of his blazer, as is the case with all of the other students. Also similar to the other students, he wears long black boots with white buttons that go up to his thighs.</p>
+            </div>
+            <h3 style="text-align:center;">Spectre Form (Dybbuk)</h3>
+            <div class="image-paragraph">
+               
+                <img src= "https://static.tvtropes.org/pmwiki/pub/images/montyspectrefull.png" alt="Character Image">
+                <p> Montresor's spectre is a Son of Belial type Dybbuk. The Hebrew word "Belial" literally means "worthlessness". In episode 87, when we see into Montresor's greatest fear, he is called worthless, the word seemed to have stood out to him as he snaps. A dybbuk is a wandering soul, believed to enter and control a living body until exorcised. This is similar to how demons are usually portrayed. The spectre's physical attributes include his longer, lighter blonde hair with bangs. On his head, he has black, ram-like horns that are decorated with gold. On his face, he kept his more noticeable attributes, which include his gold tooth and stubble. He has golden glowing eyes with pupils resembling those of goats, his face is decorated with gold markings that resemble the sigil of Belial. In his spectre form, Montresor has a human upper half of his body that is almost entirely red. His arms begin to fade into black at his lower forearms. His fingers are elongated, and his nails are especially sharp. He has golden chains wrapped around his shoulders and gold nipple piercings. He also appears to be wearing a grey cape, and he has very tiny black wings that are also accessorized with gold. On the lower half of his body, he has black, goat-like limbs and cloven hooves that are also adorned with gold. He also has pieces of gold on the bottom of his hooves. He has a long, black tail with two golden piercings.</p>
+            </div>
+        <h2 style="text-align:center;">Death</h2>
+            <div class="image-paragraph-reverse">
+                <img src= "https://snipboard.io/xI4DeT.jpg" alt="Character Image">
+                <p>Montresor's death is heavily implied to be from being tied to the tracks and being run over by a train. In episode 54, he's shown to be sleeping with the reverend's daughter, dressed as a priest, furthering the point that he masquerades as a religious figure to get his way. The reverend throws Montresor out of the building. The Sheriff then points out that the train may be coming soon.</p> 
+             </div>   
+             <p>"Train'll be comin' through soon, I reckon." - Sheriff</p> 
+             <p>"Lord have mercy. Bring him to the tracks." - Reverend</p>
+            
+            
+             <h2 style = "text-align:center;">Character Traits</h2> 
+             <div class="image-paragraph-reverse">
+                <img src="https://snipboard.io/QC5fYA.jpg" alt="Character Image">
+                <p>Montresor presents himself as a self-important character who uses those willing to bend over backwards for him for his personal gain. He forces himself into dangerous situations with no regard for his safety or that of others. People around him describe him as:</p>
+                </div>
+              <p>“A powderkeg of a man, more dangerous to his allies than his enemies” (92)  - Annabel Lee
+“It’s astonishing, really. I’ve never known someone capable of bringing such ruin down around him.” - (88) Lenore. 
+              </p>
+              <p>He surrounds himself with William and Ada, characters who can be easily pushed around and told what to do. This makes Montresor feel powerful as he cannot control stronger-willed characters such as Annabel Lee and Prospero. Truly, even though he presents as strong and fearless, he is weak and cowardly.  He takes advantage of Ada’s vulnerability and spectre after she first manifests, getting with her to later use her spectre when he’s losing the fight with Duke. He cannot use his spectre in this fight because it was worn out from the Manor arc. He also frequently uses William to his advantage. He is seen using William for his Mimicry ability twice: luring Duke into the catacombs with William disguised as Lenore, and attempting to lure Lenore into a trap in the Manor arc, right after, that time disguised as Duke. Even though he outwardly appears as someone who fears nothing, he is truly as cowardly and pathetic as those who follow him. Lenore points this out after the fight with Duke, saying, “You were lashing out like a rabid dog backed into a corner. And honestly? You’ve never seemed more like yourself! See, that’s when it dawned on me. You’re always scared. Aren’t you?” (88). Though he is not above respecting those he sees on his level or above. He calls Annabel Lee ma’am, saying, “Don’t call just anybody ma’am, y’know. Ain’t much of a gentleman.” (92). He also respects Lenore as an adversary. </p>
+ <!-- if you get rid of the love interest paragraph change to "image-paragraph" instead of "image-paragraph-reverse" also change the spectre abilities to reverse -->      
+            <h2 style = "text-align:center;">Introduction</h2>
+            <div class="image-paragraph"> 
+                <img src="https://snipboard.io/nTIAQS.jpg" alt= "Character Image">
+                <p>Montresor first appears in episode 25 but is not properly introduced until episode 31. Just before he is introduced, the three main characters, Lenore, Duke, and Pluto, all come down from Nurse Dolly’s office and are approached by Annabel Lee’s group, which includes Montresor. Montresor seems to already be impressed by Lenore, describing her as: “The myth, the legend. Lady Lenore” (31). He suspected that Lenore already knew about Montresor because she’s “sour on him” just like Duke. Duke then reveals that he is the roommate of Montresor. Montresor tells Annabel Lee that Lenore could be a potential threat to their group and could challenge the control they have. He challenges Annabel Lee to convince Morella to leave Lenore’s side, which she fails. This sets Montresor as a menacing antagonist who knows how to point out a threat, making him a force to be feared. It takes a threat to know one.
+                </p>
+            </div>
+            
+             <h2 style = "text-align:center;">Character development</h2>
+            <div class="image-paragraph">
+            <img src="https://snipboard.io/tcTZLQ.jpg" alt="Character Image">
+            <p>Montresor starts as the self-important, fearless persona he presents himself as, using those around him to his advantage. As the story progresses, we see that the personality falls apart. The first instance of this is after the Duke fight, when Lenore tears into him. She looms over him as he is on the floor and tells him, to his face, that he is always scared. In this moment, one would expect him to fight back, but he simply lies on the floor and accepts it. His overweening personality falls apart even further when he is bleeding out on the steps and is forced to beg for mercy. Montresor has never been one to beg until this moment. However, his power still remains, as he is still surrounded by those who admire him. </p>            
+            </div>
+            <div class="image-paragraph-reverse">
+            <p>Up until the Stag arc, the character maintained a menacing presence. However, once the Stag, a being that represents Lenore's curse, was introduced, there was no longer a need for him to remain the major villain he was in season one. This gave more room for Montresor’s character to be further developed. When William is dying and being chewed up by the hounds, Montresor comes in and saves him, a stark contrast to when they were in the Cellar. In the cellar, Montresor shows no concern for William’s safety, allowing him to be held at gunpoint and beaten up by Pluto. Montresor even unknowingly chokes William to the point where he cannot speak. He is constantly shown as neglectful and destructive towards William until episodes 117-120. These episodes are where Montresor’s cocksure front begins to shatter. He begins to genuinely show concern for the character he had tormented for the entirety of the webtoon. Just before William kisses him in episode 120, Montresor sits with William, not letting him die alone. Even as William pulls Montresor in for the kiss, Montresor does not immediately push him away, frozen in shock. He then snaps at William as he is dying, bringing back the aggressive personality he had just before. For a moment, we see Montresor’s mask fall entirely, revealing the shattered personality that is a product of his need to be feared. </p>
+        
+            </div>
+            
+            <h2 style="text-align:center;">Spectre Abilities</h2>
+            <div class="image-paragraph-reverse">
+                <div>
+                    <h3 style="text-align:center;">Possession</h3> 
+                    <img src ="https://snipboard.io/qrDz7u.jpg" alt="Small Image" class="small-img">
+                </div>
+                    <p>
+                    Montresor can invade a person’s mind. One example is shown in episodes 49-50, when Montresor enters Lenore's mind. It is not shown as a typical possession when the possessor is in control of the person being possessed, but rather, Montresor is physically inside Lenore’s brain. He uses this ability to get inside the enemy’s head and use whatever information he can find to sabotage them.
+                    </p>
+                    
+            </div>
+            
+             <div class="image-paragraph-reverse">
+                 <div>
+                 <h3 style="text-align:center;">Oppression</h3>
+                    <img src ="https://snipboard.io/BkQsRr.jpg" alt="Small Image" class="small-img">
+                    </div>
+                    <p>
+                   Though not explicitly shown, oppression could be his ability to will people to do whatever he wants them to through his deals. For example, in the Manor arc, in episode 51, Montresor makes a deal with Berenice, telling her to kill Lenore herself. This deal is sealed with a fiery handshake. Berenice does not uphold her end of the deal, but since Montresor is a gambling man, she will have to eventually.
+                    </p>
+            </div>
+            
+             <div class="image-paragraph-reverse">
+                 <div>
+                     <h3 style="text-align:center;">Fire & Brimstone</h3>
+                    <img src ="https://snipboard.io/O210wP.jpg" alt="Small Image" class="small-img">
+                    </div>
+                    <p>
+                    He can summon a fire to surround him, along with smoke to impair the vision of his enemies. He can also use his smoke to hide from his foes. He uses thi sability in episode 52.
+                    </p>
+            </div>
+            
+</body>
 </html>
