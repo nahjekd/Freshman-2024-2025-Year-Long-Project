@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Characters website title</title>
+    </head>
+  
+  <body>
+    <h1>Character</h1> 
+    <img src = ""
+    width = 300px length= 100px>
+    <p>Brief description</p>
+    <ol>
+        <h2><li>original story</li></h2>
+        <p> Brief summary of the original story by Edgar Allan Poe</p>
+        <h2><li>Characters designs</li></h2>
+        <ul>
+            <h3><li>Daily outfit</li></h3>
+                <p>whats there usual outifit</p>
+                <img src= ""
+                width = 200px length = 200px>
+            <h3><li>Spectre Form (Name of form)</li></h3>
+                <p>whats the characters spectre look like?</p>
+                <img src= ""
+                width = 200px Length = 200px>
+        </ul>
+        <h2><li>Character's Death</li></h2>
+            <h4>How did the character die before coming to nevermore?</h4>
+        
+        <h2><li>Character development</li></h2>
+            <h4>How the character changed throughout the story</h4>
+        
+        <h2><li>Introduction</li></h2>
+        <h4>When were they first seen, what was happening?</h4>
+        
+        <h2><li>Spectre Abilities</li></h2>
+        <ul>
+          <h3><li>Ability 1:</li></h3>
+          <h4>Description of ability</h4>
+          
+          <h3><li>Ability 2:</li></h3>
+          <h4>Description of ability 2</h4>
+          
+          <h3><li>Ability 3:</li></h3>
+          <h4>Description of ability 3</h4>
+        </ul>
+    </ol>
+  </body>
+</html>
