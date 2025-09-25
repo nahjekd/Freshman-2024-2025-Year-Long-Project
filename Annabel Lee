@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Annabel Lee</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<title>Annabel Lee</title>
 <style>
     .container {
         max-width: 900px; 
@@ -17,6 +20,8 @@
         align-items: center;
         gap: 30px;
         margin: 20px 0;
+        background-color: #E4F6F8;
+        border-radius: 8px;
     }
 
     .image-paragraph-reverse {
@@ -25,6 +30,8 @@
         gap: 30px;
         margin: 20px 0;
         flex-direction: row-reverse; 
+        background-color: #E4F6F8;
+        border-radius: 8px;
     }
 
     .image-paragraph img, .image-paragraph-reverse img {
@@ -56,7 +63,9 @@
     padding: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 </style>
+</head>
 </head>
 
 <body>
