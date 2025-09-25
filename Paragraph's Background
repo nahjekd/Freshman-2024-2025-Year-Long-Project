@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        
+/* this is the code that allows you to have a background inside the border*/
+
+  .image-paragraph p, .image-paragraph-reverse p {
+        max-width: 600px;
+        text-align: left;
+        font-size: 22px;
+        line-height: 1.5;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #ffffff;
+        padding:25px;
+    }
+    </style>
+</html>
