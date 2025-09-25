@@ -2,11 +2,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Duke</title>
+    <title>Duke Laurent</title>
 <style>
 
     .container {
-        max-width: 1200px; /*changes borders size*/
+        max-width: 1000px; /*changes borders size*/
         margin: 0 auto; 
         padding: 20px; /*changed the distance between the image paragraphs (image w/ paragraphs and the border*/
         border: 1px solid #ccc;
@@ -37,7 +37,7 @@
     .image-paragraph p, .image-paragraph-reverse p {
         max-width: 600px; /*how large the paragraph is*/
         text-align: left;
-        font-size: 22px;
+        font-size: 20px;
         line-height: 1.5;
     }
 .image-paragraph img:not(.small-img),
@@ -93,8 +93,8 @@ He seems to be tolerating his death as he almost dies for the 2nd time, his oxyg
 He's pushed by his confidence in himself, his certainty unshakable in his plans. Though he seems to be skeptical when someone else is put in charge, minus Lenore, whom he grew to trust quickly. He seems to take a closeness to his group of friends, not necessarily hating others, but not having any particular positive feelings about a large mass of the other characters.
 
 </div>
-    <h1 style="text-align:center;">Original story</h2>
-    <h2 style="text-align:center;">the duc de l'omelette</h2>
+    <h2 style="text-align:center;">Original story</h2>
+    <h3 style="text-align:center;">the duc de l'omelette</h3>
     <div class="image-paragraph-reverse">
         <img src="https://i.snipboard.io/o8ekit.jpg?nocache=1746053510988" alt="Character Image">
         <p>
@@ -113,7 +113,7 @@ He's pushed by his confidence in himself, his certainty unshakable in his plans.
         Duke not only takes the title of 'the Duc' as a name in this series but he's seen to eat an Ortolan as they are sat down in the dining hall together, the Deans saying it is to celebrate their true first day at Nevermore Academy. They are told by Mrs Poppet that as dishes appear in front of each student that this is what they would've liked to eat in their living lives. He's seen to be drinking a side of Brandy with his Ortolan. Preparing a towel as he's playfully berated by Pluto. Duke's suitcase is left with its contents scattered in Chapter 72. The insides being cards and a poster notably. THe cards probably having a correlation to the Duc playing a game of cards with Satan. Speaking of, the poster is labeled "The Fearless Fortunato," meaning the Fearless fortunate. The title is held up on a scroll by two tiny little devils, in correlation to Satan. 
         </p>
     </div>
-    <h2 style="text-align:center;">The Cask of Amantalladio</h2>
+    <h3 style="text-align:center;">The Cask of Amantalladio</h3>
     <div class="image-paragraph-reverse">
         <img src="https://i.snipboard.io/m7oSGn.jpg?nocache=1746054401805" alt="Character Image">
         <p>
@@ -179,6 +179,15 @@ This ability is pretty straightforward, he becomes transparent. Not like he goes
             <div class="image-paragraph">
                 <img src= "https://snipboard.io/vuGrRS.jpg" alt="Character Image">
                 <p>Duke's death is caused by his exhilarating job and easily tainted performances, leading to his early demise, planned out by his colleague Luca. Luca is the redhead who stands faceless when we first see him, we meet him in chapter 122. He's begging the audience to cheer louder as Duke forcefully hits against a glass box in which he's trapped. His feet were locked upside down in direct correlation to his poster. The poster has him strung up upside down by ribbons held by tiny devils. These can mean both Monty or Luca in either scenario; he's smirking, looking at the viewer. As he pounds against the walls of the locked box, his screams muffled beneath water, a curtain descends as Luca continues to tell the audience to cheer for motivation and as if this were all an act.</p>
+
+        
+           
+        
             </div>
+            
+            </div>
+            
 </body>
 </html>
+
+
