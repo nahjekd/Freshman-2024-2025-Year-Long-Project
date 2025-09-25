@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Character Analysis</title>
+  <style>
+    .page-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: flex;
+    }
+
+    .container {
+      max-width: 900px;
+      max-height:1000px;
+      padding: 30px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+      margin: 0 10px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 50px;
+      color: #000000;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+
+    h2 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 2em;
+      text-align: center;
+      margin-top: 30px;
+      color: #000000;
+      text-decoration: underline;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 10px;
+      color: #000000;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    li {
+      display: inline-block;
+      margin: 10px;
+      font-size: 1.2em;
+    }
+
+    a {
+      color: #000000;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.6);
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background: rgba(255, 255, 255, 0.8);
+      text-decoration: underline;
+    }
+
+    .disclaimer {
+      text-align: center;
+      font-style: italic;
+      color: #000000;
+      margin-top: 20px;
+    }
+
+    .slideshow {
+      position: relative;
+      width: 256px;
+      height: 748px;
+      margin: 0 10px;
+    }
+
+    .slide {
+      position: absolute;
+      width: 256;
+      height: 748;
+      opacity: 0;
+      animation: fade 12s infinite;
+    }
+
+    .slide:nth-child(1) { animation-delay: 0s; }
+    .slide:nth-child(2) { animation-delay: 3s; }
+    .slide:nth-child(3) { animation-delay: 6s; }
+    .slide:nth-child(4) { animation-delay: 9s; }
+
+    @keyframes fade {
+      0% { opacity: 0; }
+      10% { opacity: 1; }
+      30% { opacity: 1; }
+      40% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    .slide img {
+      width: 256px;
+      height: 748px;
+      object-fit: flex;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="page-wrapper">
+  <div class="slideshow">
+    <div class="slide fade"><img src="https://snipboard.io/tVxdgQ.jpg"></div>
+    <div class="slide fade"><img src="https://snipboard.io/GtcUWf.jpg"></div>
+    <div class="slide fade"><img src="https://snipboard.io/Im9AbE.jpg"></div>
+    <div class="slide fade"><img src="https://snipboard.io/HOqj58.jpg"></div>
+  </div>
+  <div class="container">
+    <h1><b><u>Nevermore Character Analysis</u></b></h1>
+
+    <h2><u>What is Nevermore?</u></h2>
+    <p style="text-align:center;">
+      Nevermore is a Sapphic Webtoon following Lenore Vandernacht as she guides through the in-between of death and life. 
+      Lenore and Annabel Lee find themselves in a mysterious location, where they meet each other without knowledge of 
+      their past lives. Together, they enter Nevermore Academy and begin their journey of self-discovery while planning 
+      their escape. However, their differing views on who to trust and whether to include their friends complicates 
+      their plans. Can they make it out alive, or will the forces around them control their fate?
+    </p>
+
+    <h2><u>The Characters We Analyzed</u></h2>
+    <ul>
+      <li><a href="https://nevermore-chr-analysis.neocities.org/ncamisfits/ncapluto">Lenore</a></li>
+      <li><a href="https://nevermore-chr-analysis.neocities.org/ncamisfits/ncaduke">Duke</a></li>
+      <li><a href="https://nevermore-chr-analysis.neocities.org/ncamisfits/ncapluto">Pluto</a></li>
+      <li><a href="https://nevermore-chr-analysis.neocities.org/ncamisfits/ncaberenice">Berenice</a></li>
+      <li><a href="https://nevermore-chr-analysis.neocities.org/ncamisfits/ncaeulalie">Eulalie</a></li>
+      <li><a href="https://nevermore-chr-analysis.neocities.org/ncaeww/ncaannabellee">Annabel Lee</a></li>
+      <li><a href="https://nevermore-chr-analysis.neocities.org/ncaeww/ncamontresor">Montresor</a></li>
+      <li><a href="https://nevermore-chr-analysis.neocities.org/ncamisfits/ncawill">William</a></li>
+    </ul>
+
+    <p style="text-align:center;">
+      Hello, welcome to our webpage! Here we will analyze the characters from the series "Nevermore" on Webtoon by 
+      Red & Flynn (Kit Trace and Kate Flynn). Our website and its contents are still a work in progress. We will 
+      be updating as frequently as possible.
+    </p>
+
+    <p class="disclaimer">
+      <i>Disclaimer: Nevermore and its associated characters are NOT owned by the creators behind the NCA project. All credits go to Kit Trace & Kate Flynn.</i>
+    </p>
+
+    <div style="text-align:center; margin-top: 20px;">
+      <a href="https://www.webtoons.com/en/supernatural/nevermore/list?title_no=2740" target="_blank">
+        <img src="https://i.snipboard.io/TRnw8e.jpg" alt="Nevermore Webtoon" style="width: 300px; border-radius: 10px;">
+      </a>
+    </div>
+  </div>
+  <div class="slideshow">
+    <div class="slide fade"><img src="https://snipboard.io/2sS4yX.jpg"></div>
+    <div class="slide fade"><img src="https://snipboard.io/q8EImd.jpg"></div>
+    <div class="slide fade"><img src="https://snipboard.io/OD4lZ9.jpg"></div>
+    <div class="slide fade"><img src="https://snipboard.io/hWpBR3.jpg"></div>
+  </div>
+
+</div>
+
+</body>
+</html>
