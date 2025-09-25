@@ -56,7 +56,15 @@
     padding: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+    @media (max-width: 600px) {
+        .image-paragraph, .image-paragraph-reverse {
+            flex-direction: column;
+            text-align: center;
+        }
+        .image-paragraph p, .image-paragraph-reverse p {
+            max-width: 100%;
+        }
+    }
 </style>
 </head>
 
@@ -66,7 +74,7 @@
     <h1 style="text-align:center;">Berenice</h1>
 
     <div class="image-paragraph">
-        <img src="https://i.pinimg.com/736x/95/6b/d7/956bd7390b94f4ff8a4ae7e5842004ec.jpg" alt="Character Image">
+        <img src="https://snipboard.io/BDCqln.jpg" alt="Character Image">
         <p>
         Berenice is a character in the webtoon <i>"Nevermore"</i>, she isn't really shown much as of the current story. However she is in the group called the misfits, which is made up of 5 people that are usually causing problems in their class or school. Breaking rules they are supposed to because it causes the dean's problems and she doesn't like them.
         </p>
@@ -75,7 +83,7 @@
     <h2 style="text-align:center;">Original story</h2>
     <div class="image-paragraph-reverse">
         <a href = "https://poestories.com/read/berenice">
-        <img src="https://m.media-amazon.com/images/I/613UX4hADCL._SL1499_.jpghttps://m.media-amazon.com/images/I/613UX4hADCL._SL1499_.jpg" alt="Character Image"></a>
+        <img src="https://snipboard.io/9J7Zlp.jpg" alt="Character Image"></a>
         <p>
             In her original story by Edgar Allan Poe, Bernice is wedded with her cousin who tends to have a fixation on certain things while she has an illness where her body breaks down. One day he sees her teeth and has thoughts of pulling them out, later on she dies and all we read that he goes to her body and pulls out her teeth. The next day one of the servants said that her grave had been disturbed and that she was still alive. Next to him (the narrator) was a shovel with a box of 32 of her teeth.
         </p>
@@ -85,13 +93,13 @@
         <h3 style="text-align:center;">School Uniform</h3>    
             <div class="image-paragraph">
 
-                <img src= "https://static.tvtropes.org/pmwiki/pub/images/screen_shot_2022_09_27_at_83724_pm.png" alt="Character Image">
+                <img src= "https://snipboard.io/rT6tKl.jpg" alt="Character Image">
                 <p>She has dark skin, short curly hair, pearl earrings, with thick black eyebrows, her edges done, with a grey dress covered by a short black jacket.</p>
             </div>
             <h3 style="text-align:center;">Spectre (Strigoi)</h3>
             <div class="image-paragraph-reverse">
                
-                <img src= "https://static.tvtropes.org/pmwiki/pub/images/bernicespectre.png" alt="Character Image">
+                <img src= "https://snipboard.io/DnE1IO.jpg" alt="Character Image">
                 <p>In her spectre form called the Strigoi, Berenice becomes a vampire, she turns red, with big wings instead of arms, and multiple mouths across her body. She wears a black dress with marbles on the end, black fishnets, short curly hair with pearl necklaces on top, and black wings</p>
             </div>
         <h2 style="text-align:center;">Her Death</h2>
