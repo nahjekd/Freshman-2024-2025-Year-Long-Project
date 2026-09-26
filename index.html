@@ -105,6 +105,40 @@
       right: 2px;
     }
 
+    @media (min-width: 552px) and (orientation: landscape) {
+      .page-wrapper {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) min(900px, max(300px, calc(100vw - 562px))) minmax(0, 1fr);
+        align-items: stretch;
+      }
+
+      .slideshow {
+        position: relative;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        width: 100%;
+        height: auto;
+      }
+
+      .slideshow:first-child {
+        grid-column: 1;
+        left: 0;
+      }
+
+      .container {
+        grid-column: 2;
+        width: 100%;
+        margin: 0;
+      }
+
+      .slideshow:last-child {
+        grid-column: 3;
+        right: 0;
+      }
+    }
+
     .slide {
       position: absolute;
       inset: 0;
