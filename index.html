@@ -2,21 +2,27 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Character Analysis</title>
   <style>
     .page-wrapper {
+      position: relative;
       display: flex;
       justify-content: center;
-      align-items: flex;
+      align-items: flex-start;
+    }
+
+    body {
+      background-color: #191919;
     }
 
     .container {
-      max-width: 900px;
-      max-height:1000px;
+      box-sizing: border-box;
+      width: min(900px, calc(100vw - 562px));
       padding: 30px;
       border: 1px solid #ccc;
       border-radius: 10px;
-      background-color: #f9f9f9;
+      background-color: #ffffff;
       margin: 0 10px;
     }
 
@@ -83,16 +89,27 @@
     }
 
     .slideshow {
-      position: relative;
+      position: absolute;
+      top: 0;
+      bottom: 0;
       width: 256px;
-      height: 748px;
-      margin: 0 10px;
+      margin: 0;
+      z-index: 1;
+    }
+
+    .slideshow:first-child {
+      left: 2px;
+    }
+
+    .slideshow:last-child {
+      right: 2px;
     }
 
     .slide {
       position: absolute;
-      width: 256;
-      height: 748;
+      inset: 0;
+      width: 100%;
+      height: 100%;
       opacity: 0;
       animation: fade 12s infinite;
     }
@@ -111,9 +128,66 @@
     }
 
     .slide img {
-      width: 256px;
-      height: 748px;
-      object-fit: flex;
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @media (orientation: portrait) {
+      .slideshow {
+        display: none;
+      }
+    }
+
+    @media (max-width: 551px) {
+      .container {
+        width: 100%;
+        padding: 16px;
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 1.75rem;
+        line-height: 1.2;
+        margin-top: 24px;
+      }
+
+      h2 {
+        font-size: 1.35rem;
+        line-height: 1.25;
+        margin-top: 24px;
+      }
+
+      .container ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin: 16px auto;
+      }
+
+      .container ul li {
+        display: block;
+        margin: 0;
+        font-size: 1rem;
+      }
+
+      .container ul li a {
+        display: block;
+        text-align: center;
+        padding: 12px;
+      }
+
+      .webtoon-link a {
+        display: inline-block;
+        box-sizing: border-box;
+        max-width: 100%;
+      }
+
+      .webtoon-link img {
+        max-width: 100%;
+        height: auto;
+      }
     }
   </style>
 </head>
@@ -141,14 +215,14 @@
 
     <h2><u>The Characters We Analyzed</u></h2>
     <ul> 
-      <li><a href="https://nevermore-character-analysis.neocities.org/ncamisfits/ncapluto">Lenore</a></li>
-      <li><a href="https://nevermore-character-analysis.neocities.org/ncamisfits/ncaduke">Duke</a></li>
-      <li><a href="https://nevermore-character-analysis.neocities.org/ncamisfits/ncapluto">Pluto</a></li> 
-      <li><a href="https://nevermore-character-analysis.neocities.org/ncamisfits/ncaberenice">Berenice</a></li>
-      <li><a href="https://nevermore-character-analysis.neocities.org/ncamisfits/ncaeulalie">Eulalie</a></li>
-      <li><a href="https://nevermore-character-analysis.neocities.org/ncaeww/ncaannabellee">Annabel Lee</a></li>
-      <li><a href="https://nevermore-character-analysis.neocities.org/ncaeww/ncamontresor">Montresor</a></li>
-      <li><a href="https://nevermore-character-analysis.neocities.org/ncamisfits/ncawill">William</a></li>
+      <li><a href="characters/lenore.html">Lenore</a></li>
+      <li><a href="characters/duke.html">Duke</a></li>
+      <li><a href="characters/Pluto.html">Pluto</a></li> 
+      <li><a href="characters/Berenice.html">Berenice</a></li>
+      <li><a href="characters/eulalie.html">Eulalie</a></li>
+      <li><a href="characters/AnnabelLee.html">Annabel Lee</a></li>
+      <li><a href="characters/montresor.html">Montresor</a></li>
+      <li><a href="characters/william.html">William</a></li>
     </ul>
 
     <p style="text-align:center;">
@@ -160,7 +234,7 @@
       <i>Disclaimer: Nevermore and its associated characters are NOT owned by the creators behind the NCA project. All credits go to Kit Trace & Kate Flynn.</i>
     </p>
 
-    <div style="text-align:center; margin-top: 20px;">
+    <div class="webtoon-link" style="text-align:center; margin-top: 20px;">
       <a href="https://www.webtoons.com/en/supernatural/nevermore/list?title_no=2740" target="_blank">
         <img src="https://i.snipboard.io/TRnw8e.jpg" alt="Nevermore Webtoon" style="width: 300px; border-radius: 10px;">
       </a>
